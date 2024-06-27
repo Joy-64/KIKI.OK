@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+ :root {
+    color: rgb(255, 231, 235);
+}
+
+body {
+    background-color: rgb(241, 232, 233);
+}
+
+.cabecera {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoimg {
+    width: 90%;
+    height: 100%;
+}
+
+.cont-menu {
+    width: 60%;
+    height: 100%;
+}
+
+.menu {
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(../img/fondo.avif);
+}
+
+.item-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.item-menu :hover {
+    color: #463F43;
+    font-size: 1.2rem;
+    transition: 0.3s;
+    background-color: rgba(213, 196, 209, 0.613);
+    padding: 1rem;
+}
+
+.icono-logo {
+    width: 20%;
+    height: 100%;
+}
+
+.boton-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    display: none;
+}
+
+.botonmenu2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    display: none;
+}
+
+.icono-menu {
+    border: none;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ropa{
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    grid-template-rows: 10vh 60vh 60vh;
+    justify-content: center;
+}
+
+.filtro-rango{
+    grid-column: 1/2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+.filtro-rango select{
+    width: 25%;
+    cursor: pointer;
+}
+
+.categoria{
+    grid-row: 2/3;
+    height: 50vh;
+    width: 35%;
+    background-color: rgb(184, 112, 175);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 1rem;
+    flex-direction: column;
+}
+
+.prendas{
+    background-color: rgb(219, 170, 203);
+}
+
+.item-prenda{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
